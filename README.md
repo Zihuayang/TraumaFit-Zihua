@@ -1,5 +1,7 @@
 X-code Project setup:
-https://github.com/firebase/firebase-ios-sdk
+File > Add Package Dependencies > paste: https://github.com/firebase/firebase-ios-sdk 
+ADD FirebaseAnalytics
 
-Youtube link for project setup:
+YouTube link for project setup:
+
  
