@@ -8,17 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		69229C912C92C7DD006674B9 /* TraumaFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229C902C92C7DD006674B9 /* TraumaFitApp.swift */; };
-		69229C932C92C7DD006674B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229C922C92C7DD006674B9 /* ContentView.swift */; };
+		69229C932C92C7DD006674B9 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229C922C92C7DD006674B9 /* WelcomeView.swift */; };
 		69229C952C92C7E1006674B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69229C942C92C7E1006674B9 /* Assets.xcassets */; };
 		69229C982C92C7E1006674B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69229C972C92C7E1006674B9 /* Preview Assets.xcassets */; };
+		69229CB22C93F0CB006674B9 /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69229CB12C93F0C8006674B9 /* TitanOne-Regular.ttf */; };
+		69229CB32C93F0CD006674B9 /* FascinateInline-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69229CB02C93F0C6006674B9 /* FascinateInline-Regular.ttf */; };
+		69229CB62CA3933C006674B9 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229CB52CA3933C006674B9 /* Homepage.swift */; };
+		69229CB82CA3A4F8006674B9 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229CB72CA3A4F8006674B9 /* Journal.swift */; };
+		69229CBA2CA3A801006674B9 /* WorkoutRec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229CB92CA3A801006674B9 /* WorkoutRec.swift */; };
+		69229CBC2CA3A81E006674B9 /* SetTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229CBB2CA3A81E006674B9 /* SetTimer.swift */; };
+		69229CBE2CA3A83C006674B9 /* Userstats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229CBD2CA3A83C006674B9 /* Userstats.swift */; };
+		69229CC02CA3A8BF006674B9 /* WorkoutTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229CBF2CA3A8BF006674B9 /* WorkoutTracker.swift */; };
+		69229CC22CA3A8E0006674B9 /* DietRec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229CC12CA3A8E0006674B9 /* DietRec.swift */; };
+		69229CC42CA3A8FB006674B9 /* ProgressReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229CC32CA3A8FB006674B9 /* ProgressReport.swift */; };
+		69229CC62CA3AC1B006674B9 /* MusicRec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69229CC52CA3AC1B006674B9 /* MusicRec.swift */; };
+		693CBAA52CDC3DE800790960 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 693CBAA42CDC3DE800790960 /* GoogleService-Info.plist */; };
+		693CBAA82CDC3FAB00790960 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 693CBAA72CDC3FAB00790960 /* FirebaseAnalytics */; };
+		693CBAAA2CDC465A00790960 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 693CBAA92CDC465A00790960 /* FirebaseAuth */; };
+		693CBAAF2CDC473900790960 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693CBAAE2CDC473900790960 /* AuthView.swift */; };
+		693CBAB12CDC486300790960 /* SigninEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693CBAB02CDC486300790960 /* SigninEmail.swift */; };
+		693CBAB52CE5904700790960 /* Authmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693CBAB42CE5904700790960 /* Authmanager.swift */; };
+		693CBAB92CE5A7E400790960 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693CBAB82CE5A7E400790960 /* RootView.swift */; };
+		693CBABB2D013A0C00790960 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693CBABA2D013A0C00790960 /* SettingsView.swift */; };
+		695E99B22CD306AA00C6AEB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695E99B12CD306AA00C6AEB3 /* UIKit.framework */; };
+		69AFD5922CA79CF100E3864D /* ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69AFD5912CA79CF100E3864D /* ringtone.mp3 */; };
+		69AFD5942CACCA6F00E3864D /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AFD5932CACCA6F00E3864D /* Reminder.swift */; };
+		69DBD01B2D213AF900C0A3CF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 69DBD01A2D213AF900C0A3CF /* FirebaseAuth */; };
+		69DBD01D2D21420300C0A3CF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 69DBD01C2D21420300C0A3CF /* FirebaseAnalytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		69229C8D2C92C7DD006674B9 /* TraumaFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraumaFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69229C902C92C7DD006674B9 /* TraumaFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraumaFitApp.swift; sourceTree = "<group>"; };
-		69229C922C92C7DD006674B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69229C922C92C7DD006674B9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		69229C942C92C7E1006674B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69229C972C92C7E1006674B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69229CA42C93DC7D006674B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		69229CB02C93F0C6006674B9 /* FascinateInline-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FascinateInline-Regular.ttf"; sourceTree = "<group>"; };
+		69229CB12C93F0C8006674B9 /* TitanOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitanOne-Regular.ttf"; sourceTree = "<group>"; };
+		69229CB52CA3933C006674B9 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		69229CB72CA3A4F8006674B9 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		69229CB92CA3A801006674B9 /* WorkoutRec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRec.swift; sourceTree = "<group>"; };
+		69229CBB2CA3A81E006674B9 /* SetTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimer.swift; sourceTree = "<group>"; };
+		69229CBD2CA3A83C006674B9 /* Userstats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Userstats.swift; sourceTree = "<group>"; };
+		69229CBF2CA3A8BF006674B9 /* WorkoutTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTracker.swift; sourceTree = "<group>"; };
+		69229CC12CA3A8E0006674B9 /* DietRec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietRec.swift; sourceTree = "<group>"; };
+		69229CC32CA3A8FB006674B9 /* ProgressReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressReport.swift; sourceTree = "<group>"; };
+		69229CC52CA3AC1B006674B9 /* MusicRec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRec.swift; sourceTree = "<group>"; };
+		693CBAA42CDC3DE800790960 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		693CBAAE2CDC473900790960 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		693CBAB02CDC486300790960 /* SigninEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninEmail.swift; sourceTree = "<group>"; };
+		693CBAB42CE5904700790960 /* Authmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authmanager.swift; sourceTree = "<group>"; };
+		693CBAB82CE5A7E400790960 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		693CBABA2D013A0C00790960 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		695E99AF2CD305FD00C6AEB3 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		695E99B12CD306AA00C6AEB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69AFD5912CA79CF100E3864D /* ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ringtone.mp3; sourceTree = "<group>"; };
+		69AFD5932CACCA6F00E3864D /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		69F1A0822CB8AE0900EC55B6 /* TraumaFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TraumaFit.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693CBAA82CDC3FAB00790960 /* FirebaseAnalytics in Frameworks */,
+				693CBAAA2CDC465A00790960 /* FirebaseAuth in Frameworks */,
+				695E99B22CD306AA00C6AEB3 /* UIKit.framework in Frameworks */,
+				69DBD01D2D21420300C0A3CF /* FirebaseAnalytics in Frameworks */,
+				69DBD01B2D213AF900C0A3CF /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				69229C8F2C92C7DD006674B9 /* TraumaFit */,
+				695E99AE2CD305FD00C6AEB3 /* Frameworks */,
 				69229C8E2C92C7DD006674B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,8 +104,24 @@
 		69229C8F2C92C7DD006674B9 /* TraumaFit */ = {
 			isa = PBXGroup;
 			children = (
+				69F1A0822CB8AE0900EC55B6 /* TraumaFit.entitlements */,
+				69229CB42C93F10E006674B9 /* fonts */,
+				69229CA42C93DC7D006674B9 /* Info.plist */,
+				69AFD5912CA79CF100E3864D /* ringtone.mp3 */,
 				69229C902C92C7DD006674B9 /* TraumaFitApp.swift */,
-				69229C922C92C7DD006674B9 /* ContentView.swift */,
+				69229C922C92C7DD006674B9 /* WelcomeView.swift */,
+				69229CB52CA3933C006674B9 /* Homepage.swift */,
+				693CBAAB2CDC46CD00790960 /* Authentication */,
+				69AFD5932CACCA6F00E3864D /* Reminder.swift */,
+				69229CC52CA3AC1B006674B9 /* MusicRec.swift */,
+				69229CC32CA3A8FB006674B9 /* ProgressReport.swift */,
+				69229CC12CA3A8E0006674B9 /* DietRec.swift */,
+				693CBAA42CDC3DE800790960 /* GoogleService-Info.plist */,
+				69229CBF2CA3A8BF006674B9 /* WorkoutTracker.swift */,
+				69229CBD2CA3A83C006674B9 /* Userstats.swift */,
+				69229CBB2CA3A81E006674B9 /* SetTimer.swift */,
+				69229CB92CA3A801006674B9 /* WorkoutRec.swift */,
+				69229CB72CA3A4F8006674B9 /* Journal.swift */,
 				69229C942C92C7E1006674B9 /* Assets.xcassets */,
 				69229C962C92C7E1006674B9 /* Preview Content */,
 			);
@@ -65,6 +134,36 @@
 				69229C972C92C7E1006674B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69229CB42C93F10E006674B9 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				69229CB02C93F0C6006674B9 /* FascinateInline-Regular.ttf */,
+				69229CB12C93F0C8006674B9 /* TitanOne-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		693CBAAB2CDC46CD00790960 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				693CBAAE2CDC473900790960 /* AuthView.swift */,
+				693CBAB02CDC486300790960 /* SigninEmail.swift */,
+				693CBAB42CE5904700790960 /* Authmanager.swift */,
+				693CBABA2D013A0C00790960 /* SettingsView.swift */,
+				693CBAB82CE5A7E400790960 /* RootView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		695E99AE2CD305FD00C6AEB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				695E99B12CD306AA00C6AEB3 /* UIKit.framework */,
+				695E99AF2CD305FD00C6AEB3 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +194,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					69229C8C2C92C7DD006674B9 = {
 						CreatedOnToolsVersion = 14.2;
@@ -111,6 +210,9 @@
 				Base,
 			);
 			mainGroup = 69229C842C92C7DD006674B9;
+			packageReferences = (
+				693CBAA62CDC3FAB00790960 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 69229C8E2C92C7DD006674B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +227,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69229CB32C93F0CD006674B9 /* FascinateInline-Regular.ttf in Resources */,
+				69229CB22C93F0CB006674B9 /* TitanOne-Regular.ttf in Resources */,
 				69229C982C92C7E1006674B9 /* Preview Assets.xcassets in Resources */,
 				69229C952C92C7E1006674B9 /* Assets.xcassets in Resources */,
+				69AFD5922CA79CF100E3864D /* ringtone.mp3 in Resources */,
+				693CBAA52CDC3DE800790960 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +243,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69229C932C92C7DD006674B9 /* ContentView.swift in Sources */,
+				693CBAAF2CDC473900790960 /* AuthView.swift in Sources */,
+				69229CB62CA3933C006674B9 /* Homepage.swift in Sources */,
+				69229C932C92C7DD006674B9 /* WelcomeView.swift in Sources */,
+				693CBABB2D013A0C00790960 /* SettingsView.swift in Sources */,
+				693CBAB92CE5A7E400790960 /* RootView.swift in Sources */,
+				69229CBE2CA3A83C006674B9 /* Userstats.swift in Sources */,
+				69AFD5942CACCA6F00E3864D /* Reminder.swift in Sources */,
+				69229CBC2CA3A81E006674B9 /* SetTimer.swift in Sources */,
+				69229CC42CA3A8FB006674B9 /* ProgressReport.swift in Sources */,
+				69229CC22CA3A8E0006674B9 /* DietRec.swift in Sources */,
+				69229CBA2CA3A801006674B9 /* WorkoutRec.swift in Sources */,
+				693CBAB52CE5904700790960 /* Authmanager.swift in Sources */,
 				69229C912C92C7DD006674B9 /* TraumaFitApp.swift in Sources */,
+				69229CC02CA3A8BF006674B9 /* WorkoutTracker.swift in Sources */,
+				693CBAB12CDC486300790960 /* SigninEmail.swift in Sources */,
+				69229CB82CA3A4F8006674B9 /* Journal.swift in Sources */,
+				69229CC62CA3AC1B006674B9 /* MusicRec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +302,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -241,6 +363,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -264,11 +387,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TraumaFit/TraumaFit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TraumaFit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TraumaFit/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy all feature of our application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -292,11 +419,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TraumaFit/TraumaFit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TraumaFit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TraumaFit/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy all feature of our application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +468,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		693CBAA62CDC3FAB00790960 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		693CBAA72CDC3FAB00790960 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 693CBAA62CDC3FAB00790960 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		693CBAA92CDC465A00790960 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 693CBAA62CDC3FAB00790960 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		69DBD01A2D213AF900C0A3CF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 693CBAA62CDC3FAB00790960 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		69DBD01C2D21420300C0A3CF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 693CBAA62CDC3FAB00790960 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 69229C852C92C7DD006674B9 /* Project object */;
 }
