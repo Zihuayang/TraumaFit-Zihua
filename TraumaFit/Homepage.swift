@@ -12,7 +12,7 @@ struct Homepage: View {
             VStack {
            
                 HStack {
-                    Text("Welcome Back User")
+                    Text("Welcome Back!!")
                         .font(.title)
                         .fontWeight(.bold)
                         .padding(.leading)
